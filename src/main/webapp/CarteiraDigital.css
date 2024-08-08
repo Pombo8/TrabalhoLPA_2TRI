@@ -1,0 +1,79 @@
+@charset "ISO-8859-1";
+
+/* Profile CSS Template */
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* Container */
+.profile-container {
+  max-width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 2px solid black;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  font-family: "Montserrat";
+  border-radius: 10px;
+}
+
+/* Profile Header */
+.profile-header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.profile-header h2 {
+  margin: 0;
+}
+
+/* Profile Fields */
+.profile-field {
+  margin-bottom: 20px;
+}
+
+.profile-field label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  
+}
+
+.profile-field input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.profile-field input[type="text"]:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Field 1: Name */
+.field-name {
+  margin-top: 20px;
+}
+
+/* Field 7: Profile Picture */
+.field-profile-picture {
+ 	margin-top: 20px;
+}
+
+.field-profile-picture img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: solid black 3px;
+}
+body{
+	background-image: url("images/background.png");
+	max-width: 100%;
+}
